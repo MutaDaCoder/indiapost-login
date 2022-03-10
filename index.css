@@ -1,0 +1,173 @@
+
+.container {
+    margin : 2% 13%;
+    display: flex;
+    justify-content: space-between;
+} 
+hr{
+    width: 2px;
+}
+.sperator {
+    border : 2px #fff solid ;
+    border-top-color: #FEE600;
+    border-bottom-color: #B52A26;
+    margin: 0 2px;
+}
+
+.hero {
+    display: flex;
+    padding: 0 13%;
+    padding-top: 5%;
+    border: 2px rgba(107, 105, 105,0.7) solid; 
+    padding-bottom: 4%;
+    justify-content: space-between;
+    margin-top: 23px;
+} 
+legend{
+    position: absolute;
+    top:23.7%;
+    left:3%;
+    background-color: #fff;
+    z-index: 10;
+}
+.hero h2 {
+    font-family: poppins;
+    font-weight: 400;
+    color : red;
+    margin:0;
+}
+.sub-head{
+    margin: 0;
+    padding:0 ;
+    font-weight: 100;
+    font-family: poppins;
+}
+.sub-head-info{
+    margin-top: 1.5rem;
+    padding: 0;
+    display: flex; 
+    flex-direction: column;
+    
+}
+.sub-head-info img {
+    height: 15px;
+    width: 15px; 
+    margin: 0;
+    padding: 0;
+}
+.sub-info-headOne{
+    font-weight: 600;
+    font-family: poppins; 
+    padding: 0;
+    margin: 0;
+    margin-left:5px ;
+    font-size: 1em;
+}
+.sub-info-headTwo{ 
+    padding: 0;
+    margin: 0;
+    font-family: poppins; 
+    margin-left: 21px;
+    font-size: 0.7em;
+}
+.login-container{
+    width: 40%;
+    margin-left: 20px;
+    border: 1px #9D9D9D solid ;
+    padding-right: 8px;
+}
+.login-head {
+    display: flex;
+    align-items: center;
+    background-color: #B52A25;
+    width: 100%;
+    padding:5px
+}
+.login-head img {
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+}
+.login-head p {
+    font-family: poppins; 
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+.login-form {
+    padding-left: 27px;
+    padding-top: 27px;
+} 
+label {
+    font-family: poppins;
+    font-size: 12px;
+} 
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+label span {
+    color: red;
+}
+input{   
+    width: 13rem;
+    height:2em ;
+}
+.submit-btns{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 10px;
+}
+.submit-btns button {
+    background-color: #AA231F;
+    border-radius: 6px;
+    border: none;
+    padding: 7px;
+    color: #fff;
+} 
+h3{
+    font-size: 14px;    
+    margin-left: 27px;
+    font-weight: bold;
+    font-family: poppins;
+}
+.no-account {
+    background-color: #666666;
+    padding: 6px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    font-family: poppins;
+}
+.create-account{
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.footer-top{
+    background-color: #555555;
+    padding : 0 13%;
+    height: 25px;
+}
+
+.footer-top-contents a {
+    color: #fff; 
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: poppins;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    background-color: #B52A26;
+    padding: 5px;
+}
+.footer-bottom-content{
+    font-family: poppins;
+    color: #fff;
+    font-size: 13px;
+}
